@@ -10,7 +10,7 @@
 /* Developper Flags*/
 #define DEBUG_MODE false
 /***/
-const int emg_pins[] = {A0};// Choose any analog pin, but make sure the hardware jumper matches your software.
+const int emg_pins[] = {A1};// Choose any analog pin, but make sure the hardware jumper matches your software.
 char serial_buffer[N_CHANS * CHARS_PER_CHAN];    // Allocate space to store the voltages from the analog pins.
 /*********************************/
 
